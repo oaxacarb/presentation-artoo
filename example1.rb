@@ -1,6 +1,6 @@
 require 'artoo'
 
-connection :firmata, :adaptor => :firmata, :port => '/dev/ttyACM0' #linux
+connection :firmata, :adaptor => :firmata, :port => '/dev/ttyACM0'
 device :board, :driver => :device_info
 device :led, :driver => :led, :pin => 13
 
